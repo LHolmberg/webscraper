@@ -56,8 +56,6 @@ count = data.count('message')
 count2 = data.count('schema')
 
 n = 0
-print(count2)
-print(theSchedule.__len__())
 i = 0
 if messages.__len__() > count:
     with open('a.json', 'w') as f:
